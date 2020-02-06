@@ -1,0 +1,9 @@
+.mobile-nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.mobile-solutions__link {
+  padding: 15px;
+  border-bottom: solid 1px #d0d0d0;
+}
