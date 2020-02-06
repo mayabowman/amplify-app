@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Nav from './Nav/Nav';
-// import MenuToggleButton from './MenuToggleButton/MenuToggleButton';
 import Solutions from './Solutions/Solutions';
+import MobileNav from './MobileNav/MobileNav';
 import './App.css';
 
 class App extends React.Component {
@@ -32,7 +32,7 @@ class App extends React.Component {
                 path='/solutions'
                 render={(props) => <Solutions {...props} show={this.state.dropDownOpen} />}
               />
-              <Route path='/nav' component={Nav}/>
+              <Route path='/mobilenav' component={MobileNav}/>
             </>
           </Switch>
         </section>

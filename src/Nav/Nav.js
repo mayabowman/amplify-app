@@ -11,7 +11,9 @@ class Nav extends React.Component {
     return (
       <header>
         <div className='navbar-toggle-button'>
-          <MenuToggleButton />
+          <Link to={'/mobilenav'}>
+            <MenuToggleButton />
+          </Link>
         </div>
         <div>
           <AltNav />
