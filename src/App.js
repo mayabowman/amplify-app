@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Nav from './Nav/Nav';
 import Solutions from './Solutions/Solutions';
 import MobileNav from './MobileNav/MobileNav';
+import MobileSolutions from './MobileSolutions/MobileSolutions'
 import './App.css';
 
 class App extends React.Component {
@@ -33,6 +34,7 @@ class App extends React.Component {
                 render={(props) => <Solutions {...props} show={this.state.dropDownOpen} />}
               />
               <Route path='/mobilenav' component={MobileNav}/>
+              <Route path='/mobilesolutions' component={MobileSolutions}/>
             </>
           </Switch>
         </section>

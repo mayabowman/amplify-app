@@ -1,30 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-class MobileNav extends React.Component {
+class MobileSolutions extends React.Component {
   render() {
     return (
       <div>
-        <div className='moble-nav'>
-          <Link to={'/mobilesolutions'}>
-            SOLUTIONS
+        <div>
+          <Link to={'/mobilenav'}>
+            GO BACK
           </Link>
         </div>
         <div>
-          PRODUCTS
+          SOLUTIONS BY INDUSTRY
         </div>
         <div>
-          AUTOMATION
+          SOLUTIONS BY PROCESS
         </div>
         <div>
-          EDUCATION
+          SOFTWARE SOLUTIONS
         </div>
         <div>
-          RESOURCES
+          SERVICES
         </div>
       </div>
     )
   }
 }
 
-export default MobileNav;
+export default MobileSolutions;
