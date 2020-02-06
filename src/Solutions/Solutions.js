@@ -1,5 +1,5 @@
 import React from 'react';
-import './Solutions.css'
+import './Solutions.css';
 
 class Solutions extends React.Component {
   render() {

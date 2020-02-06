@@ -1,11 +1,21 @@
 .main-links {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: space-around;
+  display: none;
 }
 
-.solutions-link {
-  text-decoration: none;
-  color: black;
+.navbar-toggle-button {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .main-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+
+  .solutions-link {
+    text-decoration: none;
+    color: black;
+  }
 }

@@ -1,11 +1,17 @@
-.leftnav {
-  flex-grow: 1;
+.top-links {
+  display: none;
 }
 
-.top-links {
-  display: flex;
-  justify-content: flex-end;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
+@media (min-width: 768px) {
+  .leftnav {
+    flex-grow: 1;
+  }
+
+  .top-links {
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
 }

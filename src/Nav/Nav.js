@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import AltNav from '../AltNav/AltNav';
+import MenuToggleButton from '../MenuToggleButton/MenuToggleButton';
 import './Nav.css';
 
 class Nav extends React.Component {
@@ -9,6 +10,9 @@ class Nav extends React.Component {
     console.log('props', this.props)
     return (
       <header>
+        <div className='navbar-toggle-button'>
+          <MenuToggleButton />
+        </div>
         <div>
           <AltNav />
         </div>
