@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66185df87dc02e8d04e97a74436a6b94",
+    "revision": "d60ec704a076a3636bf3f3e56baf53c5",
     "url": "/FED-exercise/index.html"
   },
   {
-    "revision": "c15a8a2ef22ad5f1fa80",
-    "url": "/FED-exercise/static/css/main.4fe9c55a.chunk.css"
+    "revision": "bb96496110a8d8b7ee04",
+    "url": "/FED-exercise/static/css/main.49e45d3d.chunk.css"
   },
   {
-    "revision": "b2a1cbe2d84f7fe1072d",
-    "url": "/FED-exercise/static/js/2.78b3c486.chunk.js"
+    "revision": "97470e2c4a97d4d623a2",
+    "url": "/FED-exercise/static/js/2.0a01e3d0.chunk.js"
   },
   {
     "revision": "928d7b5eb39d16fe9a880722c974b51e",
-    "url": "/FED-exercise/static/js/2.78b3c486.chunk.js.LICENSE.txt"
+    "url": "/FED-exercise/static/js/2.0a01e3d0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c15a8a2ef22ad5f1fa80",
-    "url": "/FED-exercise/static/js/main.c0f66ba9.chunk.js"
+    "revision": "bb96496110a8d8b7ee04",
+    "url": "/FED-exercise/static/js/main.0d40fa55.chunk.js"
   },
   {
     "revision": "39886b09aa36517dd25c",
