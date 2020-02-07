@@ -16,14 +16,18 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
-    border-bottom: solid 2px #d0d0d0;
+    border-bottom: solid 2px var(--borders);
     padding: 0px 10px 10px 0px;
   }
 
   .main-nav {
     display: inline;
+  }
+
+  .main-nav__link {
+    margin-left: 40px;
   }
 
   .navbar-toggle-button {
@@ -32,12 +36,17 @@
 
   .solutions-link {
     text-decoration: none;
-    color: black;
+    color: var(--dark-text);
+  }
+
+  #last-link {
+    flex-grow: 1;
   }
 
   #search {
     padding: 10px;
-    border: solid 1px #d0d0d0;
+    border: solid 1px var(--borders);
     border-radius: 5px;
+    width: 300px
   }
 }

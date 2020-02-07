@@ -23,7 +23,7 @@ class Nav extends React.Component {
             <div>
               <img src={require('../images/logo-large.png')} alt='logo' className='large-logo'/>
             </div>
-            <li>
+            <li className='main-nav__link'>
               <Link
                 to={'/solutions'}
                 className='solutions-link'
@@ -32,10 +32,10 @@ class Nav extends React.Component {
                 SOLUTIONS
               </Link>
             </li>
-            <li>PRODUCTS</li>
-            <li>AUTOMATION</li>
-            <li>EDUCATION</li>
-            <li>RESOURCES</li>
+            <li className='main-nav__link'>PRODUCTS</li>
+            <li className='main-nav__link'>AUTOMATION</li>
+            <li className='main-nav__link'>EDUCATION</li>
+            <li className='main-nav__link' id='last-link'>RESOURCES</li>
             <input type='text' id='search' placeholder='Search'/>
           </ul>
         </nav>

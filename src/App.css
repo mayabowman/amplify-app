@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:700&display=swap');
 
 * {
   box-sizing: border-box;
+}
+
+:root {
+  --primary: #b81830;
+  --dark-text: #181818;
+  --borders: #d0d0d0;
 }
 
 body {

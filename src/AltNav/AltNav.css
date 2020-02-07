@@ -3,12 +3,30 @@
 }
 
 @media (min-width: 768px) {
+  .en-flag {
+    vertical-align: middle;
+  }
+
   .leftnav {
     flex-grow: 1;
   }
 
   .rightnav {
-    padding-right: 10px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+
+  .safety-icon {
+    vertical-align: middle;
+  }
+
+  .shopping-cart-icon {
+    background-color: var(--primary);
+  }
+
+  .shopping-cart-li {
+    background-color: var(--primary);
   }
 
   .top-links {
@@ -17,8 +35,11 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    align-items: center;
     background-color: black;
     color: white;
-    padding: 10px;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 0;
   }
 }

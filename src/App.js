@@ -3,7 +3,15 @@ import { Route, Switch } from 'react-router-dom';
 import Nav from './Nav/Nav';
 import Solutions from './Solutions/Solutions';
 import MobileNav from './MobileNav/MobileNav';
-import MobileSolutions from './MobileSolutions/MobileSolutions'
+import MobileSolutions from './MobileSolutions/MobileSolutions';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {
+  faSearch,
+  faQuestionCircle,
+  faShoppingCart,
+  faMapMarkerAlt,
+  faUser
+} from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 class App extends React.Component {
@@ -21,6 +29,7 @@ class App extends React.Component {
   }
 
   render() {
+    library.add(faSearch, faQuestionCircle, faShoppingCart, faMapMarkerAlt, faUser)
     return (
       <main className="App">
         <Nav
