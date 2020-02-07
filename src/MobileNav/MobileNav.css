@@ -2,6 +2,10 @@
   float: right;
 }
 
+.image-div {
+  display: inline-block;
+}
+
 .lower-nav {
   background-color: var(--page-section-backgrounds);
   padding-bottom: 100%;

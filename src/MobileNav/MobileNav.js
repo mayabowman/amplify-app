@@ -68,11 +68,11 @@ class MobileNav extends React.Component {
               />
               Where to Buy/Rent
             </li>
-            <div>
+            <div className='image-div'>
               <img src={require('../images/safety-icon-light.png')} alt='safety-icon' className='safety-icon'/>
             </div>
             <li className='lower-nav__link'>Safety</li>
-            <div>
+            <div className='image-div'>
               <img src={require('../images/en-flag-light.png')} alt='en-flag' className='en-flag'/>
             </div>
             <li className='lower-nav__link'>EN</li>
