@@ -1,3 +1,7 @@
+.chevron-right {
+  float: right;
+}
+
 .mobile-nav-link {
   text-decoration: none;
   color: var(--dark-text);

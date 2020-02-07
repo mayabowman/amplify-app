@@ -8,6 +8,8 @@
   --primary: #b81830;
   --dark-text: #181818;
   --borders: #d0d0d0;
+  --lightest-text: #666666;
+  --page-section-backgrounds: #f4f4f4;
 }
 
 body {

@@ -1,22 +1,45 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AltNav from '../AltNav/AltNav';
-import MenuToggleButton from '../MenuToggleButton/MenuToggleButton';
+import UpperNav from '../UpperNav/UpperNav';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Nav.css';
 
 class Nav extends React.Component {
   render() {
-
-    console.log('props', this.props)
     return (
       <header>
-        <div className='navbar-toggle-button'>
-          <Link to={'/mobilenav'}>
-            <MenuToggleButton />
-          </Link>
+        <div className='mobile-header'>
+          <div className='mobile__left-icon'>
+            <Link to={'/mobilenav'}>
+              <FontAwesomeIcon
+                icon={'bars'}
+                id='bars'
+                size='lg'
+              />
+            </Link>
+            <img src={require('../images/logo-large.png')} alt='logo' className='small-logo'/>
+          </div>
+          <FontAwesomeIcon
+            icon={'search'}
+            id='search'
+            className='mobile__right-icon'
+            size='lg'
+          />
+          <FontAwesomeIcon
+            icon={'user'}
+            id='user'
+            className='mobile__right-icon'
+            size='lg'
+          />
+            <FontAwesomeIcon
+              icon={'shopping-cart'}
+              id='shopping-cart-icon'
+              className='mobile__right-icon'
+              size='lg'
+            />
         </div>
         <div>
-          <AltNav />
+          <UpperNav />
         </div>
         <nav className='main-nav'>
           <ul className='main-links'>

@@ -1,8 +1,8 @@
 import React from 'react';
-import './AltNav.css';
+import './UpperNav.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-class AltNav extends React.Component {
+class UpperNav extends React.Component {
   render() {
     return (
       <div>
@@ -32,14 +32,16 @@ class AltNav extends React.Component {
           <li className='rightnav'>Sign In</li>
           <li className='shopping-cart-li'>
             <FontAwesomeIcon
-                icon={'shopping-cart'}
-                className='shopping-cart-icon'
-              />
-            </li>
+              icon={'shopping-cart'}
+              className='shopping-cart-icon'
+            />
+            {' '}
+            3
+          </li>
         </ul>
       </div>
     )
   }
 }
 
-export default AltNav;
+export default UpperNav;

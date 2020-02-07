@@ -1,3 +1,25 @@
+.chevron-right {
+  float: right;
+}
+
+.lower-nav {
+  background-color: var(--page-section-backgrounds);
+  padding-bottom: 100%;
+}
+
+.lower-nav__link {
+  margin-bottom: 15px;
+}
+
+.lower-nav-ul {
+  margin-top: 0px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
 .mobile-nav {
   text-decoration: none;
   color: var(--dark-text);

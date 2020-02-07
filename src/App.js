@@ -10,7 +10,10 @@ import {
   faQuestionCircle,
   faShoppingCart,
   faMapMarkerAlt,
-  faUser
+  faUser,
+  faBars,
+  faChevronRight,
+  faChevronLeft
 } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
@@ -29,7 +32,7 @@ class App extends React.Component {
   }
 
   render() {
-    library.add(faSearch, faQuestionCircle, faShoppingCart, faMapMarkerAlt, faUser)
+    library.add(faSearch, faQuestionCircle, faShoppingCart, faMapMarkerAlt, faUser, faBars, faChevronRight, faChevronLeft)
     return (
       <main className="App">
         <Nav
