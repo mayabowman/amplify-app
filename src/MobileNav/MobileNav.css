@@ -2,6 +2,14 @@
   float: right;
 }
 
+.en-flag {
+  padding-right: 5px;
+}
+
+.en-flag, .safety-icon {
+  vertical-align: middle;
+}
+
 .lower-nav {
   background-color: var(--page-section-backgrounds);
   padding-bottom: 100%;

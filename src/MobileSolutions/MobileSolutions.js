@@ -7,6 +7,18 @@ class MobileSolutions extends React.Component {
   render() {
     return (
       <div>
+        <div className='menu-div'>
+          Menu
+          <Link
+            to={'/solutions'}
+            onClick={this.props.buttonClick}
+          >
+            <FontAwesomeIcon
+              icon={'times'}
+              className='times'
+            />
+          </Link>
+        </div>
         <div className='mobile-solutions__link'>
           <FontAwesomeIcon
             icon={'chevron-left'}

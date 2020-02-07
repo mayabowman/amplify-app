@@ -66,7 +66,10 @@ class App extends React.Component {
                 path='/mobilenav'
                 render={(props) => <MobileNav {...props} clicked={this.state.isClicked} buttonClick={this.buttonClickHandler}/>}
               />
-              <Route path='/mobilesolutions' component={MobileSolutions}/>
+              <Route
+                path='/mobilesolutions'
+                render={(props) => <MobileSolutions {...props} clicked={this.state.isClicked} buttonClick={this.buttonClickHandler}/>}
+              />
             </>
           </Switch>
         </section>

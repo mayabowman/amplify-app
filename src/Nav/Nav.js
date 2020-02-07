@@ -16,6 +16,7 @@ class Nav extends React.Component {
           <Link
             to={'/mobilenav'}
             onClick={this.props.buttonClick}
+            className='hamburger'
           >
             <FontAwesomeIcon
               icon={'bars'}

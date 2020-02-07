@@ -72,6 +72,11 @@ class MobileNav extends React.Component {
                 className='question-circle'
               />
               Help
+              {' '}
+              <FontAwesomeIcon
+                icon={'chevron-right'}
+                size='sm'
+              />
             </li>
             <li className='lower-nav__link'>
               <FontAwesomeIcon
@@ -80,14 +85,14 @@ class MobileNav extends React.Component {
               />
               Where to Buy/Rent
             </li>
-            <div>
+            <div className='lower-nav__link'>
               <img src={require('../images/safety-icon-light.png')} alt='safety-icon' className='safety-icon'/>
+              Safety
             </div>
-            <li className='lower-nav__link-with-img'>Safety</li>
-            <div>
+            <div className='lower-nav__link'>
               <img src={require('../images/en-flag-light.png')} alt='en-flag' className='en-flag'/>
+              EN
             </div>
-            <li className='lower-nav__link'>EN</li>
           </ul>
         </div>
       </div>
