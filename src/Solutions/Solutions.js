@@ -7,10 +7,10 @@ class Solutions extends React.Component {
     this.props.show ? dropDownClass = 'drop-down open' : dropDownClass = 'drop-down'
     return (
       <ul className={dropDownClass}>
-        <li>Solutions By Industry</li>
-        <li>Solutions By Process</li>
-        <li>Software Solutions</li>
-        <li>Services</li>
+        <li className='solutions__links'>Solutions By Industry</li>
+        <li className='solutions__links'>Solutions By Process</li>
+        <li className='solutions__links'>Software Solutions</li>
+        <li className='solutions__links'>Services</li>
       </ul>
     )
   }

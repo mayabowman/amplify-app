@@ -1,6 +1,5 @@
 import React from 'react';
 import './AltNav.css';
-// import { Link } from 'react-router-dom';
 
 class AltNav extends React.Component {
   render() {

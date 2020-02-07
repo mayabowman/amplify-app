@@ -7,11 +7,23 @@
 }
 
 @media (min-width: 768px) {
+  .large-logo {
+    max-width: 150px;
+    float: left;
+  }
+
   .main-links {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 2px #d0d0d0;
+    padding: 0px 10px 10px 10px;
+  }
+
+  .main-nav {
+    display: inline;
   }
 
   .navbar-toggle-button {
@@ -21,5 +33,11 @@
   .solutions-link {
     text-decoration: none;
     color: black;
+  }
+
+  #search {
+    padding: 10px;
+    border: solid 1px #d0d0d0;
+    border-radius: 5px;
   }
 }

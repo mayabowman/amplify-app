@@ -18,8 +18,11 @@ class Nav extends React.Component {
         <div>
           <AltNav />
         </div>
-        <nav>
+        <nav className='main-nav'>
           <ul className='main-links'>
+            <div>
+              <img src={require('../images/logo-large.png')} alt='logo' className='large-logo'/>
+            </div>
             <li>
               <Link
                 to={'/solutions'}

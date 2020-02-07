@@ -4,6 +4,11 @@
 
 .drop-down.open {
   display: block;
+  margin-top: 40px;
+}
+
+.solutions__links {
+  padding: 20px;
 }
 
 li {
