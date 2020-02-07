@@ -5,25 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Nav.css';
 
 class Nav extends React.Component {
-  // constructor(props) {
-  //   super(props)
-  //   this.state = {
-  //     isClicked: false
-  //   }
-  // }
-
-  // buttonClickHandler = () => {
-  //   this.setState((prevState) => {
-  //     return {isClicked: !prevState.isClicked}
-  //   })
-  // }
-
   render() {
     let linkClass;
     let headerClass;
     this.props.dropDownOpen ? linkClass = 'solutions-link open' : linkClass = 'solutions-link';
     this.props.isClicked ? headerClass = 'mobile-header hidden' : headerClass = 'mobile-header';
-    console.log('headerClass', headerClass)
     return (
       <header>
         <div className={headerClass}>
