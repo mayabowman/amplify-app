@@ -7,6 +7,15 @@ class MobileNav extends React.Component {
   render() {
     return (
       <div>
+        <div className='menu-div'>
+          Menu
+          <Link to={'/solutions'}>
+            <FontAwesomeIcon
+              icon={'times'}
+              className='times'
+            />
+          </Link>
+        </div>
         <div className='mobile-nav__link'>
           <Link
             className='mobile-nav'
@@ -68,11 +77,11 @@ class MobileNav extends React.Component {
               />
               Where to Buy/Rent
             </li>
-            <div className='image-div'>
+            <div>
               <img src={require('../images/safety-icon-light.png')} alt='safety-icon' className='safety-icon'/>
             </div>
-            <li className='lower-nav__link'>Safety</li>
-            <div className='image-div'>
+            <li className='lower-nav__link-with-img'>Safety</li>
+            <div>
               <img src={require('../images/en-flag-light.png')} alt='en-flag' className='en-flag'/>
             </div>
             <li className='lower-nav__link'>EN</li>

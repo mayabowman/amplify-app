@@ -2,10 +2,6 @@
   float: right;
 }
 
-.image-div {
-  display: inline-block;
-}
-
 .lower-nav {
   background-color: var(--page-section-backgrounds);
   padding-bottom: 100%;
@@ -24,6 +20,12 @@
   padding-top: 15px;
 }
 
+.menu-div {
+  padding: 5px 15px 5px 15px;
+  background-color: black;
+  color: white;
+}
+
 .mobile-nav {
   text-decoration: none;
   color: var(--dark-text);
@@ -32,4 +34,14 @@
 .mobile-nav__link {
   padding: 15px;
   border-bottom: solid 1px var(--borders);
+}
+
+.question-circle, .map-marker-alt {
+  margin-right: 5px;
+}
+
+.times {
+  float: right;
+  color: white;
+  vertical-align: middle;
 }

@@ -13,7 +13,8 @@ import {
   faUser,
   faBars,
   faChevronRight,
-  faChevronLeft
+  faChevronLeft,
+  faTimes
 } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
@@ -21,7 +22,8 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      dropDownOpen: false
+      dropDownOpen: false,
+      isClicked: false
     }
   }
 
@@ -31,12 +33,19 @@ class App extends React.Component {
     })
   }
 
+  linkClickHandler = () => {
+    this.setState((prevState) => {
+      return {isClicked: !prevState.isClicked}
+    })
+  }
+
   render() {
-    library.add(faSearch, faQuestionCircle, faShoppingCart, faMapMarkerAlt, faUser, faBars, faChevronRight, faChevronLeft)
+    library.add(faSearch, faQuestionCircle, faShoppingCart, faMapMarkerAlt, faUser, faBars, faChevronRight, faChevronLeft, faTimes)
     return (
       <main className="App">
         <Nav
           toggle={this.dropDownToggleClickHandler}
+          click={this.linkClickHandler}
         />
         <section>
           <Switch>

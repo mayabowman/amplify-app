@@ -9,34 +9,35 @@ class Nav extends React.Component {
     return (
       <header>
         <div className='mobile-header'>
-          <div className='mobile__left-icon'>
-            <Link to={'/mobilenav'}>
-              <FontAwesomeIcon
-                icon={'bars'}
-                id='bars'
-                size='lg'
-              />
-            </Link>
-            <img src={require('../images/logo-large.png')} alt='logo' className='small-logo'/>
+          <Link to={'/mobilenav'}>
+            <FontAwesomeIcon
+              icon={'bars'}
+              id='bars'
+              size='lg'
+              className='bars'
+            />
+          </Link>
+          <div className='mobile-header-child'>
+            <img src={require('../images/logo-large.png')} alt='logo'/>
           </div>
           <FontAwesomeIcon
             icon={'search'}
             id='search'
-            className='mobile__right-icon'
+            className='search'
             size='lg'
           />
           <FontAwesomeIcon
             icon={'user'}
             id='user'
-            className='mobile__right-icon'
+            className='mobile-header-child'
             size='lg'
           />
-            <FontAwesomeIcon
-              icon={'shopping-cart'}
-              id='shopping-cart-icon'
-              className='mobile__right-icon'
-              size='lg'
-            />
+          <FontAwesomeIcon
+            icon={'shopping-cart'}
+            id='shopping-cart-icon'
+            className='shopping-cart'
+            size='lg'
+          />
         </div>
         <div>
           <UpperNav />
