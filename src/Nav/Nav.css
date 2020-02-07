@@ -13,6 +13,10 @@
   padding: 15px;
 }
 
+.mobile-header.hidden {
+  display: none;
+}
+
 .mobile-header-child {
   order: 0;
   flex: 1 1 auto;
@@ -55,9 +59,11 @@
     color: var(--dark-text);
   }
 
-  .solutions-link:active {
+  .solutions-link.open {
     color: var(--primary);
+    border-bottom: solid 2px var(--primary);
   }
+
 
   #last-link {
     flex-grow: 1;

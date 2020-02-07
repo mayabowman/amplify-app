@@ -9,7 +9,10 @@ class MobileNav extends React.Component {
       <div>
         <div className='menu-div'>
           Menu
-          <Link to={'/solutions'}>
+          <Link
+            to={'/solutions'}
+            onClick={this.props.buttonClick}
+          >
             <FontAwesomeIcon
               icon={'times'}
               className='times'

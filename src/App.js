@@ -39,13 +39,21 @@ class App extends React.Component {
     })
   }
 
+  buttonClickHandler = () => {
+    this.setState((prevState) => {
+      return {isClicked: !prevState.isClicked}
+    })
+  }
+
   render() {
     library.add(faSearch, faQuestionCircle, faShoppingCart, faMapMarkerAlt, faUser, faBars, faChevronRight, faChevronLeft, faTimes)
     return (
       <main className="App">
         <Nav
           toggle={this.dropDownToggleClickHandler}
-          click={this.linkClickHandler}
+          dropDownOpen={this.state.dropDownOpen}
+          buttonClick={this.buttonClickHandler}
+          isClicked={this.state.isClicked}
         />
         <section>
           <Switch>
@@ -54,7 +62,10 @@ class App extends React.Component {
                 path='/solutions'
                 render={(props) => <Solutions {...props} show={this.state.dropDownOpen} />}
               />
-              <Route path='/mobilenav' component={MobileNav}/>
+              <Route
+                path='/mobilenav'
+                render={(props) => <MobileNav {...props} clicked={this.state.isClicked} buttonClick={this.buttonClickHandler}/>}
+              />
               <Route path='/mobilesolutions' component={MobileSolutions}/>
             </>
           </Switch>
