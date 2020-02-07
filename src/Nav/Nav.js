@@ -46,6 +46,8 @@ class Nav extends React.Component {
             className='shopping-cart'
             size='lg'
           />
+          {'  '}
+          3
         </div>
         <div>
           <UpperNav />
