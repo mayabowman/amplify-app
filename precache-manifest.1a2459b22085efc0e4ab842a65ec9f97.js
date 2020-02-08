@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65c719d0b900e7dabdc365ab2376e0e1",
+    "revision": "8cb98e931fe685afd3a6e8cd9c850d00",
     "url": "/FED-exercise/index.html"
   },
   {
-    "revision": "9e806988aec1fe87c1b1",
-    "url": "/FED-exercise/static/css/main.3f58c47b.chunk.css"
+    "revision": "fc84bf804e74e76e98d6",
+    "url": "/FED-exercise/static/css/main.c695d50a.chunk.css"
   },
   {
     "revision": "97470e2c4a97d4d623a2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FED-exercise/static/js/2.0a01e3d0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e806988aec1fe87c1b1",
-    "url": "/FED-exercise/static/js/main.0d40fa55.chunk.js"
+    "revision": "fc84bf804e74e76e98d6",
+    "url": "/FED-exercise/static/js/main.93a6ce85.chunk.js"
   },
   {
     "revision": "39886b09aa36517dd25c",
