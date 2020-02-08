@@ -8,6 +8,7 @@
 
 @media (min-width: 768px) {
   .cart-container {
+    display: block;
     background-color: var(--primary);
     color: white;
     padding: .23em;
