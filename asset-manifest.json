@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FED-exercise/static/css/main.760d417c.chunk.css",
+    "main.css": "/FED-exercise/static/css/main.3f58c47b.chunk.css",
     "main.js": "/FED-exercise/static/js/main.0d40fa55.chunk.js",
     "main.js.map": "/FED-exercise/static/js/main.0d40fa55.chunk.js.map",
     "runtime-main.js": "/FED-exercise/static/js/runtime-main.389847cc.js",
@@ -8,16 +8,16 @@
     "static/js/2.0a01e3d0.chunk.js": "/FED-exercise/static/js/2.0a01e3d0.chunk.js",
     "static/js/2.0a01e3d0.chunk.js.map": "/FED-exercise/static/js/2.0a01e3d0.chunk.js.map",
     "index.html": "/FED-exercise/index.html",
-    "precache-manifest.d440c1782bac2f43b95627b85caca8a5.js": "/FED-exercise/precache-manifest.d440c1782bac2f43b95627b85caca8a5.js",
+    "precache-manifest.da08a7d5f841383701f2659f3e84d93e.js": "/FED-exercise/precache-manifest.da08a7d5f841383701f2659f3e84d93e.js",
     "service-worker.js": "/FED-exercise/service-worker.js",
-    "static/css/main.760d417c.chunk.css.map": "/FED-exercise/static/css/main.760d417c.chunk.css.map",
+    "static/css/main.3f58c47b.chunk.css.map": "/FED-exercise/static/css/main.3f58c47b.chunk.css.map",
     "static/js/2.0a01e3d0.chunk.js.LICENSE.txt": "/FED-exercise/static/js/2.0a01e3d0.chunk.js.LICENSE.txt",
     "static/media/logo-large.png": "/FED-exercise/static/media/logo-large.4af4ca46.png"
   },
   "entrypoints": [
     "static/js/runtime-main.389847cc.js",
     "static/js/2.0a01e3d0.chunk.js",
-    "static/css/main.760d417c.chunk.css",
+    "static/css/main.3f58c47b.chunk.css",
     "static/js/main.0d40fa55.chunk.js"
   ]
 }
