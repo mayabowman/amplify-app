@@ -68,7 +68,7 @@
   .solutions-link.open {
     color: var(--primary);
     border-bottom: solid 3px var(--primary);
-    padding-bottom: 33px;
+    padding-bottom: 25px;
   }
 
 
