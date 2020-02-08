@@ -5,40 +5,45 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class UpperNav extends React.Component {
   render() {
     return (
-      <div>
-        <ul className='top-links'>
-          <div>
-            <img src={require('../images/en-flag.png')} alt='en-flag' className='en-flag'/>
-          </div>
-          <li className='leftnav'>EN</li>
-          <div>
-            <img src={require('../images/safety-icon.png')} alt='safety-icon' className='safety-icon'/>
-          </div>
-          <li className='rightnav'>Safety</li>
+      <div className='upper-nav-container'>
+        <div className='ul-container'>
+          <ul className='top-links'>
+            <li>
+              <img src={require('../images/en-flag.png')} alt='en-flag' className='en-flag'/>
+            </li>
+            <li className='leftnav'>EN</li>
+            <li>
+              <img src={require('../images/safety-icon.png')} alt='safety-icon' className='safety-icon'/>
+            </li>
+            <li className='rightnav'>Safety</li>
+            <li className='rightnav'>
+              <FontAwesomeIcon
+                icon={'question-circle'}
+                className='question-circle'
+              />Help
+            </li>
+            <li className='rightnav'>
+              <FontAwesomeIcon
+                icon={'map-marker-alt'}
+                className='map-marker-alt'
+              />Where to Buy/Rent
+            </li>
+            <li className='rightnav'>
+              <FontAwesomeIcon
+                icon={'user'}
+                className='user'
+              />Sign In
+            </li>
+          </ul>
+        </div>
+        <div className='cart-container'>
           <FontAwesomeIcon
-            icon={'question-circle'}
-            className='question-circle'
+            icon={'shopping-cart'}
+            className='shopping-cart-icon'
           />
-          <li className='rightnav'>Help</li>
-          <FontAwesomeIcon
-            icon={'map-marker-alt'}
-            className='map-marker-alt'
-          />
-          <li className='rightnav'>Where to Buy/Rent</li>
-          <FontAwesomeIcon
-            icon={'user'}
-            className='user'
-          />
-          <li className='rightnav'>Sign In</li>
-          <li className='shopping-cart-li'>
-            <FontAwesomeIcon
-              icon={'shopping-cart'}
-              className='shopping-cart-icon'
-            />
-            {' '}
-            3
-          </li>
-        </ul>
+          {' '}
+          3
+        </div>
       </div>
     )
   }

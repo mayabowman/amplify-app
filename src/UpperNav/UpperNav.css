@@ -3,6 +3,11 @@
 }
 
 @media (min-width: 768px) {
+  .cart-container {
+    background-color: var(--primary);
+    color: white;
+    padding: .23em;
+  }
   .en-flag {
     vertical-align: middle;
   }
@@ -41,5 +46,24 @@
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 10px;
+  }
+
+  .ul-container {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+  }
+
+  .upper-nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+  }
+
+  .user {
+    margin-right: 5px;
   }
 }
