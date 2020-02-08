@@ -24,7 +24,7 @@ class MobileNav extends React.Component {
             className='mobile-nav'
             to={'/mobilesolutions'}
           >
-            SOLUTIONS
+            Solutions
           </Link>
           <FontAwesomeIcon
             icon={'chevron-right'}
@@ -33,7 +33,7 @@ class MobileNav extends React.Component {
           />
         </div>
         <div className='mobile-nav__link'>
-          PRODUCTS
+          Products
           <FontAwesomeIcon
             icon={'chevron-right'}
             className='chevron-right'
@@ -41,7 +41,7 @@ class MobileNav extends React.Component {
           />
         </div>
         <div className='mobile-nav__link'>
-          AUTOMATION
+          Automation
           <FontAwesomeIcon
             icon={'chevron-right'}
             className='chevron-right'
@@ -49,7 +49,7 @@ class MobileNav extends React.Component {
           />
         </div>
         <div className='mobile-nav__link'>
-          EDUCATION
+          Education
           <FontAwesomeIcon
             icon={'chevron-right'}
             className='chevron-right'
@@ -57,7 +57,7 @@ class MobileNav extends React.Component {
           />
         </div>
         <div className='mobile-nav__link'>
-          RESOURCES
+          Resources
           <FontAwesomeIcon
             icon={'chevron-right'}
             className='chevron-right'
@@ -65,8 +65,8 @@ class MobileNav extends React.Component {
           />
         </div>
         <div className='lower-nav'>
-          <ul className='lower-nav-ul'>
-            <li className='lower-nav__link'>
+          <div className='lower-nav-ul'>
+            <div className='lower-nav__link'>
               <FontAwesomeIcon
                 icon={'question-circle'}
                 className='question-circle'
@@ -77,14 +77,14 @@ class MobileNav extends React.Component {
                 icon={'chevron-right'}
                 size='sm'
               />
-            </li>
-            <li className='lower-nav__link'>
+            </div>
+            <div className='lower-nav__link'>
               <FontAwesomeIcon
                 icon={'map-marker-alt'}
                 className='map-marker-alt'
               />
               Where to Buy/Rent
-            </li>
+            </div>
             <div className='lower-nav__link'>
               <img src={require('../images/safety-icon-light.png')} alt='safety-icon' className='safety-icon'/>
               Safety
@@ -93,7 +93,7 @@ class MobileNav extends React.Component {
               <img src={require('../images/en-flag-light.png')} alt='en-flag' className='en-flag'/>
               EN
             </div>
-          </ul>
+          </div>
         </div>
       </div>
     )

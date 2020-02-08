@@ -54,6 +54,11 @@
   .main-nav__link {
     margin-left: 30px;
     font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .main-nav__link:nth-last-child(2) {
+    flex-grow: 1;
   }
 
   .mobile-header {
@@ -71,9 +76,9 @@
     padding-bottom: 25px;
   }
 
-
-  #last-link {
-    flex-grow: 1;
+  .large-logo {
+    border-bottom: solid 2px var(--borders);
+    padding-bottom: 20px;
   }
 
   #search {

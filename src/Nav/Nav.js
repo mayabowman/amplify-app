@@ -53,24 +53,26 @@ class Nav extends React.Component {
           <UpperNav />
         </div>
         <nav className='main-nav'>
+          <div>
+            <img src={require('../images/logo-large.png')} alt='logo' className='large-logo'/>
+          </div>
           <ul className='main-links'>
-            <div>
-              <img src={require('../images/logo-large.png')} alt='logo' className='large-logo'/>
-            </div>
             <li className='main-nav__link'>
               <Link
                 to={'/solutions'}
                 className={linkClass}
                 onClick={this.props.toggle}
               >
-                SOLUTIONS
+                Solutions
               </Link>
             </li>
-            <li className='main-nav__link'>PRODUCTS</li>
-            <li className='main-nav__link'>AUTOMATION</li>
-            <li className='main-nav__link'>EDUCATION</li>
-            <li className='main-nav__link' id='last-link'>RESOURCES</li>
-            <input type='text' id='search' placeholder='Search'/>
+            <li className='main-nav__link'>Products</li>
+            <li className='main-nav__link'>Automation</li>
+            <li className='main-nav__link'>Education</li>
+            <li className='main-nav__link'>Resources</li>
+            <li>
+              <input type='text' id='search' placeholder='Search'/>
+            </li>
           </ul>
         </nav>
       </header>
